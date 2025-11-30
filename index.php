@@ -368,9 +368,9 @@ try {
                 <div>
                     <h4 class="font-semibold text-gray-800 mb-3">Контакты</h4>
                     <p class="text-sm text-gray-600">
-                        г. Магнитогорск, ул. Ленина, д. 164<br>
-                        +7 (922) 757-19-69<br>
-                        info@мойортодонт.рф
+                        город такойто<br>
+                        +77777777777<br>
+                        info@авыаывт.рф
                     </p>
                 </div>
                 <div>
@@ -388,4 +388,5 @@ try {
     </footer>
 
 </body>
+
 </html>
