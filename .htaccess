@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Если файл или папка существуют, используй их напрямую
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Перенаправление для API
+RewriteRule ^patients/?$ api/patients.php [L]
+RewriteRule ^schedule/?$ api/schedule.php [L]
+RewriteRule ^doctors/?$ api/doctors.php [L]
+RewriteRule ^services/?$ api/services.php [L]
+RewriteRule ^work-orders/?$ api/work_orders.php [L]
